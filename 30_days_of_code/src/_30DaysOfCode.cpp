@@ -1,0 +1,50 @@
+/**
+* 30 Days of Code
+ * https://www.hackerrank.com/domains/tutorials/30-days-of-code
+*/
+
+#include "../include/_30DaysOfCode.h"
+#include "../include/Day0HelloWorld.h"
+#include "../include/Day1DataTypes.h"
+#include "../include/Day2Operators.h"
+#include "../include/Day3ConditionalStatements.h"
+#include "../include/Day4ClassVsInstance.h"
+#include "../include/Day5Loops.h"
+#include "../include/Day6ReviewLoop.h"
+
+_30DaysOfCode::_30DaysOfCode() = default;
+_30DaysOfCode::~_30DaysOfCode() = default;
+
+
+int _30DaysOfCode::day0HelloWorld() {
+ Day0HelloWorld day0HelloWorld;
+ return day0HelloWorld.day0HelloWorld();
+}
+
+int _30DaysOfCode::day1DataTypes() {
+ Day1DataTypes day1DataTypes;
+ return day1DataTypes.day1DataTypes();
+}
+
+int _30DaysOfCode::day2Operators() {
+ Day2OperatorsNS::Day2Operators day2Operators;
+ return day2Operators.day2Operators();
+}
+
+int _30DaysOfCode::day3ConditionalStatements() {
+ Day3ConditionalStatementsNS::Day3ConditionalStatements day3ConditionalStatements;
+ return day3ConditionalStatements.day3ConditionalStatements();
+}
+
+int _30DaysOfCode::day4ClassVsInstance() {
+ return Day4ClassVsInstanceNS::day4ClassVsInstance();
+}
+
+int _30DaysOfCode::day5Loops() {
+ return Day5LoopsNS::day5Loops();
+}
+
+int _30DaysOfCode::day6ReviewLoop() {
+ return Day6ReviewLoopNS::day6ReviewLoop();
+}
+
