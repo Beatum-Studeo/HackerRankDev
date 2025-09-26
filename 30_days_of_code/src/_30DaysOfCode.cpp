@@ -11,6 +11,9 @@
 #include "../include/Day4ClassVsInstance.h"
 #include "../include/Day5Loops.h"
 #include "../include/Day6ReviewLoop.h"
+#include "../include/Day7Arrays.h"
+#include "../include/Day8Maps.h"
+#include "../include/Day9Recursion.h"
 
 _30DaysOfCode::_30DaysOfCode() = default;
 _30DaysOfCode::~_30DaysOfCode() = default;
@@ -47,4 +50,17 @@ int _30DaysOfCode::day5Loops() {
 int _30DaysOfCode::day6ReviewLoop() {
  return Day6ReviewLoopNS::day6ReviewLoop();
 }
+
+int _30DaysOfCode::day7Arrays() {
+ return Day7ArraysNS::day7Arrays();
+}
+
+int _30DaysOfCode::day8Maps() {
+ return Day8MapsNS::day8Maps();
+}
+
+int _30DaysOfCode::day9Recursion() {
+ return Day9RecursionNS::day9Recursion();
+}
+
 

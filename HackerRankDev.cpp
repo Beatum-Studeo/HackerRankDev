@@ -14,7 +14,10 @@ int main(int argc, char* argv[])
     //thirtyDaysOfCode.day3ConditionalStatements();
     //thirtyDaysOfCode.day4ClassVsInstance();
     //thirtyDaysOfCode.day5Loops();
-    thirtyDaysOfCode.day6ReviewLoop();
-
+    //thirtyDaysOfCode.day6ReviewLoop();
+    //thirtyDaysOfCode.day7Arrays();
+    //thirtyDaysOfCode.day8Maps();
+    thirtyDaysOfCode.day9Recursion();
+    
     return 0;
 }

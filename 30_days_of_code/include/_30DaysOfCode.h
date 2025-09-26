@@ -19,6 +19,9 @@ class _30DaysOfCode {
     int day4ClassVsInstance();
     int day5Loops();
     int day6ReviewLoop();
+    int day7Arrays();
+    int day8Maps();
+    int day9Recursion();
     
 };
 
