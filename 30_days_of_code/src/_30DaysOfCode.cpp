@@ -14,6 +14,8 @@
 #include "../include/Day7Arrays.h"
 #include "../include/Day8Maps.h"
 #include "../include/Day9Recursion.h"
+#include "../include/Day10BinaryNumbers.h"
+#include "../include/Day11_2DArrays.h"
 
 _30DaysOfCode::_30DaysOfCode() = default;
 _30DaysOfCode::~_30DaysOfCode() = default;
@@ -61,6 +63,14 @@ int _30DaysOfCode::day8Maps() {
 
 int _30DaysOfCode::day9Recursion() {
  return Day9RecursionNS::day9Recursion();
+}
+
+int _30DaysOfCode::day10BinaryNumbers() {
+ return Day10BinaryNumbersNS::day10BinaryNumbers();
+}
+
+int _30DaysOfCode::day11_2DArrays() {
+ return Day11_2DArraysNS::day11_2DArrays();
 }
 
 

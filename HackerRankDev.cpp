@@ -17,7 +17,9 @@ int main(int argc, char* argv[])
     //thirtyDaysOfCode.day6ReviewLoop();
     //thirtyDaysOfCode.day7Arrays();
     //thirtyDaysOfCode.day8Maps();
-    thirtyDaysOfCode.day9Recursion();
+    //thirtyDaysOfCode.day9Recursion();
+    //thirtyDaysOfCode.day10BinaryNumbers();
+    thirtyDaysOfCode.day11_2DArrays();
     
     return 0;
 }

@@ -22,7 +22,8 @@ class _30DaysOfCode {
     int day7Arrays();
     int day8Maps();
     int day9Recursion();
-    
+    int day10BinaryNumbers();
+    int day11_2DArrays();
 };
 
 
