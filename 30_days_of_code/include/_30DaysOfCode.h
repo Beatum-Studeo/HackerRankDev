@@ -28,6 +28,7 @@ class _30DaysOfCode {
     int day13AbstractClasses();
     int day14Scope();
     int day15LinkedList();
+    int day16Exceptions();
 };
 
 
