@@ -24,6 +24,10 @@ class _30DaysOfCode {
     int day9Recursion();
     int day10BinaryNumbers();
     int day11_2DArrays();
+    int day12Inheritance();
+    int day13AbstractClasses();
+    int day14Scope();
+    int day15LinkedList();
 };
 
 

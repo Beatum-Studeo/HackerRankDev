@@ -19,7 +19,11 @@ int main(int argc, char* argv[])
     //thirtyDaysOfCode.day8Maps();
     //thirtyDaysOfCode.day9Recursion();
     //thirtyDaysOfCode.day10BinaryNumbers();
-    thirtyDaysOfCode.day11_2DArrays();
+    //thirtyDaysOfCode.day11_2DArrays();
+    //thirtyDaysOfCode.day12Inheritance();
+    //thirtyDaysOfCode.day13AbstractClasses();
+    //thirtyDaysOfCode.day14Scope();
+    thirtyDaysOfCode.day15LinkedList();
     
     return 0;
 }

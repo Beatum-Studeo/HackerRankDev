@@ -16,6 +16,10 @@
 #include "../include/Day9Recursion.h"
 #include "../include/Day10BinaryNumbers.h"
 #include "../include/Day11_2DArrays.h"
+#include "../include/Day12Inheritance.h"
+#include "../include/Day13AbstractClasses.h"
+#include "../include/Day14Scope.h"
+#include "../include/Day15LinkedList.h"
 
 _30DaysOfCode::_30DaysOfCode() = default;
 _30DaysOfCode::~_30DaysOfCode() = default;
@@ -71,6 +75,22 @@ int _30DaysOfCode::day10BinaryNumbers() {
 
 int _30DaysOfCode::day11_2DArrays() {
  return Day11_2DArraysNS::day11_2DArrays();
+}
+
+int _30DaysOfCode::day12Inheritance() {
+ return Day12InheritanceNS::day12Inheritance();
+}
+
+int _30DaysOfCode::day13AbstractClasses() {
+ return Day13AbstractClassesNS::day13AbstractClasses();
+}
+
+int _30DaysOfCode::day14Scope() {
+ return Day14ScopeNS::day14Scope();
+}
+
+int _30DaysOfCode::day15LinkedList() {
+ return Day15LinkedListNS::day15LinkedList();
 }
 
 
