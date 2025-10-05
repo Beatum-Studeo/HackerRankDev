@@ -29,6 +29,8 @@ class _30DaysOfCode {
     int day14Scope();
     int day15LinkedList();
     int day16Exceptions();
+    int day17MoreExceptions();
+    int day18QueuesAndStacks();
 };
 
 

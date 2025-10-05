@@ -21,6 +21,8 @@
 #include "../include/Day14Scope.h"
 #include "../include/Day15LinkedList.h"
 #include "../include/Day16Exceptions.h"
+#include "../include/Day17MoreExceptions.h"
+#include "../include/Day18QueuesAndStacks.h"
 
 _30DaysOfCode::_30DaysOfCode() = default;
 _30DaysOfCode::~_30DaysOfCode() = default;
@@ -96,6 +98,14 @@ int _30DaysOfCode::day15LinkedList() {
 
 int _30DaysOfCode::day16Exceptions() {
  return Day16ExceptionsNS::day16Exceptions();
+}
+
+int _30DaysOfCode::day17MoreExceptions() {
+ return Day17MoreExceptionsNS::day17MoreExceptions();
+}
+
+int _30DaysOfCode::day18QueuesAndStacks() {
+ return Day18QueuesAndStacksNS::day18QueuesAndStacks();
 }
 
 
