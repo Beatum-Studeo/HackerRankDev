@@ -26,7 +26,9 @@ int main(int argc, char* argv[])
     //thirtyDaysOfCode.day15LinkedList();
     //thirtyDaysOfCode.day16Exceptions();
     //thirtyDaysOfCode.day17MoreExceptions();
-    thirtyDaysOfCode.day18QueuesAndStacks();
+    //thirtyDaysOfCode.day18QueuesAndStacks();
+    //thirtyDaysOfCode.day19AdvancedArithmetic();
+    thirtyDaysOfCode.day20Sorting();
     
     return 0;
 }

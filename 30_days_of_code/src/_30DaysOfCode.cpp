@@ -23,6 +23,8 @@
 #include "../include/Day16Exceptions.h"
 #include "../include/Day17MoreExceptions.h"
 #include "../include/Day18QueuesAndStacks.h"
+#include "../include/Day19AdvancedArithmetic.h"
+#include "../include/Day20Sorting.h"
 
 _30DaysOfCode::_30DaysOfCode() = default;
 _30DaysOfCode::~_30DaysOfCode() = default;
@@ -106,6 +108,14 @@ int _30DaysOfCode::day17MoreExceptions() {
 
 int _30DaysOfCode::day18QueuesAndStacks() {
  return Day18QueuesAndStacksNS::day18QueuesAndStacks();
+}
+
+int _30DaysOfCode::day19AdvancedArithmetic() {
+ return Day19AdvancedArithmeticNS::day19AdvancedArithmetic();
+}
+
+int _30DaysOfCode::day20Sorting() {
+ return Day20SortingNS::day20Sorting();
 }
 
 

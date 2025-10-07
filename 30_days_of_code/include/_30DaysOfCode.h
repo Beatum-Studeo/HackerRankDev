@@ -31,6 +31,8 @@ class _30DaysOfCode {
     int day16Exceptions();
     int day17MoreExceptions();
     int day18QueuesAndStacks();
+    int day19AdvancedArithmetic();
+    int day20Sorting();
 };
 
 
