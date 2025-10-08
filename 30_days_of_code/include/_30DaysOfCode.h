@@ -33,6 +33,7 @@ class _30DaysOfCode {
     int day18QueuesAndStacks();
     int day19AdvancedArithmetic();
     int day20Sorting();
+    int day21Generics();
 };
 
 

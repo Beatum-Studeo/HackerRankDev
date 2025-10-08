@@ -28,7 +28,8 @@ int main(int argc, char* argv[])
     //thirtyDaysOfCode.day17MoreExceptions();
     //thirtyDaysOfCode.day18QueuesAndStacks();
     //thirtyDaysOfCode.day19AdvancedArithmetic();
-    thirtyDaysOfCode.day20Sorting();
+    //thirtyDaysOfCode.day20Sorting();
+    thirtyDaysOfCode.day21Generics();
     
     return 0;
 }
