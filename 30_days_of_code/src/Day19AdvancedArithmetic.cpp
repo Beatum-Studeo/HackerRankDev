@@ -8,11 +8,11 @@
 #include <numeric>
 #include <string>
 
-class AdvancedArithmetic{
+class Day19AdvancedArithmetic{
 public:
     virtual int divisorSum(int n)=0;
 };
-class Calculator : public AdvancedArithmetic {
+class Day19Calculator : public Day19AdvancedArithmetic {
 public:
     int divisorSum(int n) {
         std::vector<int> divisors;
@@ -35,7 +35,7 @@ public:
 int Day19AdvancedArithmeticNS::day19AdvancedArithmetic(){
     int n;
     std::cin >> n;
-    AdvancedArithmetic *myCalculator = new Calculator(); 
+    Day19AdvancedArithmetic *myCalculator = new Day19Calculator(); 
     int sum = myCalculator->divisorSum(n);
     std::cout << "I implemented: AdvancedArithmetic\n" << sum;
     return 0;

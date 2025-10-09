@@ -2,33 +2,33 @@
 #include <iostream>
 #include <cstddef>
 
-class Node
+class Day15Node
 {
 public:
     int data;
-    Node *next;
-    Node(int d){
+    Day15Node *next;
+    Day15Node(int d){
         data=d;
         next=NULL;
     }
 };
 
-class Solution {
+class Day15Solution {
 public:
 
-    Node* insert(Node *head,int data)
+    Day15Node* insert(Day15Node *head,int data)
     {
         //Complete this method
-        Node *node=head;
+        Day15Node *node=head;
         if (node==NULL)
         {
-            return node=new Node(data);
+            return node=new Day15Node(data);
         }
         while(node)
         {
             if(node->next==NULL)
             {
-                node->next=new Node(data);
+                node->next=new Day15Node(data);
                 break;
             }
             node=node->next;
@@ -36,9 +36,9 @@ public:
         return head;
     }
 
-    void display(Node *head)
+    void display(Day15Node *head)
     {
-        Node *start=head;
+        Day15Node *start=head;
         while(start)
         {
             std::cout<<start->data<<" ";
@@ -49,8 +49,8 @@ public:
 
 int Day15LinkedListNS::day15LinkedList()
 {
-    Node* head=NULL;
-    Solution mylist;
+    Day15Node* head=NULL;
+    Day15Solution mylist;
     int T,data;
     std::cin>>T;
     while(T-->0){

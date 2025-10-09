@@ -29,7 +29,8 @@ int main(int argc, char* argv[])
     //thirtyDaysOfCode.day18QueuesAndStacks();
     //thirtyDaysOfCode.day19AdvancedArithmetic();
     //thirtyDaysOfCode.day20Sorting();
-    thirtyDaysOfCode.day21Generics();
+    //thirtyDaysOfCode.day21Generics();
+    thirtyDaysOfCode.day22BinarySearchTrees();
     
     return 0;
 }

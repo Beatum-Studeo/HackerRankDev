@@ -34,6 +34,7 @@ class _30DaysOfCode {
     int day19AdvancedArithmetic();
     int day20Sorting();
     int day21Generics();
+    int day22BinarySearchTrees();
 };
 
 

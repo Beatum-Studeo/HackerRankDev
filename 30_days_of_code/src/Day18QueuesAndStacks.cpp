@@ -4,7 +4,7 @@
 #include <queue>
 #include <stack>
 
-class Solution {
+class Day18Solution {
     
     //Write your code here
     
@@ -45,7 +45,7 @@ int Day18QueuesAndStacksNS::day18QueuesAndStacks() {
     getline(std::cin, s);
     
     // create the Solution class object p.
-    Solution obj;
+    Day18Solution obj;
     
     // push/enqueue all the characters of string s to stack.
     for (int i = 0; i < s.length(); i++) {

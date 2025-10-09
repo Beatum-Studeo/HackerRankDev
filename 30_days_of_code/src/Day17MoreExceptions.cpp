@@ -5,7 +5,7 @@
 #include <stdexcept>
 
 //Write your code here
-class Calculator
+class Day17Calculator
 {
     public:
     int power(int base, int exponent)
@@ -23,7 +23,7 @@ class Calculator
 
 int Day17MoreExceptionsNS::day17MoreExceptions()
 {
-    Calculator myCalculator=Calculator();
+    Day17Calculator myCalculator=Day17Calculator();
     int T,n,p;
     std::cin>>T;
     while(T-->0){

@@ -26,6 +26,7 @@
 #include "../include/Day19AdvancedArithmetic.h"
 #include "../include/Day20Sorting.h"
 #include "../include/Day21Generics.h"
+#include "../include/Day22BinarySearchTrees.h"
 
 _30DaysOfCode::_30DaysOfCode() = default;
 _30DaysOfCode::~_30DaysOfCode() = default;
@@ -121,6 +122,10 @@ int _30DaysOfCode::day20Sorting() {
 
 int _30DaysOfCode::day21Generics() {
  return Day21GenericsNS::day21Generics();
+}
+
+int _30DaysOfCode::day22BinarySearchTrees() {
+ return Day22BinarySearchTreesNS::day22BinarySearchTrees();
 }
 
 
