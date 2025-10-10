@@ -14,6 +14,7 @@ public:
         right = NULL;
     }
 };
+
 class Day22Solution{
 public:
     Day22Node* insert(Day22Node* root, int data) {
