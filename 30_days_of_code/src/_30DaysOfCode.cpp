@@ -28,6 +28,7 @@
 #include "../include/Day21Generics.h"
 #include "../include/Day22BinarySearchTrees.h"
 #include "../include/Day23BSTLevelOrderTraversal.h"
+#include "../include/Day24MoreLinkedLists.h"
 
 _30DaysOfCode::_30DaysOfCode() = default;
 _30DaysOfCode::~_30DaysOfCode() = default;
@@ -131,6 +132,10 @@ int _30DaysOfCode::day22BinarySearchTrees() {
 
 int _30DaysOfCode::day23BSTLevelOrderTraversal() {
  return Day23BSTLevelOrderTraversalNS::day23BSTLevelOrderTraversal();
+}
+
+int _30DaysOfCode::day24MoreLinkedLists() {
+ return Day24MoreLinkedListsNS::day24MoreLinkedLists();
 }
 
 

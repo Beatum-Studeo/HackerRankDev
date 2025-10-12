@@ -36,6 +36,7 @@ class _30DaysOfCode {
     int day21Generics();
     int day22BinarySearchTrees();
     int day23BSTLevelOrderTraversal();
+    int day24MoreLinkedLists();
 };
 
 

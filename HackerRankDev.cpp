@@ -31,7 +31,8 @@ int main(int argc, char* argv[])
     //thirtyDaysOfCode.day20Sorting();
     //thirtyDaysOfCode.day21Generics();
     //thirtyDaysOfCode.day22BinarySearchTrees();
-    thirtyDaysOfCode.day23BSTLevelOrderTraversal();
+    //thirtyDaysOfCode.day23BSTLevelOrderTraversal();
+    thirtyDaysOfCode.day24MoreLinkedLists();
     
     return 0;
 }
