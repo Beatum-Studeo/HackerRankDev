@@ -96,5 +96,6 @@ int Day24MoreLinkedListsNS::day24MoreLinkedLists()
     head=mylist.removeDuplicates(head);
 
     mylist.display(head);
-		
+
+    return 0;
 }

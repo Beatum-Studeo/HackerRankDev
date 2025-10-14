@@ -37,6 +37,9 @@ class _30DaysOfCode {
     int day22BinarySearchTrees();
     int day23BSTLevelOrderTraversal();
     int day24MoreLinkedLists();
+    int day25RunningTimeAndComplexity();
+    int day26NestedLogic();
+    int day27UnitTesting();
 };
 
 

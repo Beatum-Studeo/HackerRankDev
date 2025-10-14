@@ -29,6 +29,9 @@
 #include "../include/Day22BinarySearchTrees.h"
 #include "../include/Day23BSTLevelOrderTraversal.h"
 #include "../include/Day24MoreLinkedLists.h"
+#include "../include/Day25RunningTimeAndComplexity.h"
+#include "../include/Day26NestedLogic.h"
+#include "../include/Day27UnitTesting.h"
 
 _30DaysOfCode::_30DaysOfCode() = default;
 _30DaysOfCode::~_30DaysOfCode() = default;
@@ -136,6 +139,18 @@ int _30DaysOfCode::day23BSTLevelOrderTraversal() {
 
 int _30DaysOfCode::day24MoreLinkedLists() {
  return Day24MoreLinkedListsNS::day24MoreLinkedLists();
+}
+
+int _30DaysOfCode::day25RunningTimeAndComplexity() {
+ return Day25RunningTimeAndComplexityNS::day25RunningTimeAndComplexity();
+}
+
+int _30DaysOfCode::day26NestedLogic() {
+ return Day26NestedLogicNS::day26NestedLogic();
+}
+
+int _30DaysOfCode::day27UnitTesting() {
+ return Day27UnitTestingNS::day27UnitTesting();
 }
 
 
