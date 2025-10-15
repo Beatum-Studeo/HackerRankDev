@@ -40,6 +40,7 @@ class _30DaysOfCode {
     int day25RunningTimeAndComplexity();
     int day26NestedLogic();
     int day27UnitTesting();
+    int day28RegExPatternsIntroDatabases();
 };
 
 
