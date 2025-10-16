@@ -37,7 +37,8 @@ int main(int argc, char* argv[])
     //thirtyDaysOfCode.day25RunningTimeAndComplexity();
     //thirtyDaysOfCode.day26NestedLogic();
     //thirtyDaysOfCode.day27UnitTesting();
-    thirtyDaysOfCode.day28RegExPatternsIntroDatabases();
+    //thirtyDaysOfCode.day28RegExPatternsIntroDatabases();
+    thirtyDaysOfCode.day29BitwiseAND();
     
     return 0;
 }

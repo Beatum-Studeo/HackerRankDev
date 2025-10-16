@@ -41,6 +41,7 @@ class _30DaysOfCode {
     int day26NestedLogic();
     int day27UnitTesting();
     int day28RegExPatternsIntroDatabases();
+    int day29BitwiseAND();
 };
 
 

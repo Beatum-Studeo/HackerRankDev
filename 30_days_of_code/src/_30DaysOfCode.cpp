@@ -33,6 +33,7 @@
 #include "../include/Day26NestedLogic.h"
 #include "../include/Day27UnitTesting.h"
 #include "../include/Day28RegExPatternsIntroDatabases.h"
+#include "../include/Day29BitwiseAND.h"
 
 _30DaysOfCode::_30DaysOfCode() = default;
 _30DaysOfCode::~_30DaysOfCode() = default;
@@ -156,6 +157,10 @@ int _30DaysOfCode::day27UnitTesting() {
 
 int _30DaysOfCode::day28RegExPatternsIntroDatabases() {
  return Day28RegExPatternsIntroDatabasesNS::day28RegExPatternsIntroDatabases();
+}
+
+int _30DaysOfCode::day29BitwiseAND() {
+ return Day29BitwiseANDNS::day29BitwiseAND();
 }
 
 
