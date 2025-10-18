@@ -43,6 +43,7 @@ class _30DaysOfCode {
     int day28RegExPatternsIntroDatabases();
     int day29BitwiseAND();
 };
+    void thirtyDaysOfCode();
 
 
 #endif //HACKERRANKDEV__30DAYSOFCODE_H
