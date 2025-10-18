@@ -2137,6 +2137,7 @@
     <ClCompile Include="30_days_of_code\src\_30DaysOfCode.cpp" />
     <ClCompile Include="HackerRankDev.cpp" />
     <ClCompile Include="tutorials\basic_data_types\BasicDataTypes.cpp" />
+    <ClCompile Include="tutorials\conditional_statements\ConditionalStatements.cpp" />
     <ClCompile Include="tutorials\Tutorials.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -2172,6 +2173,7 @@
     <ClInclude Include="30_days_of_code\include\Day9Recursion.h" />
     <ClInclude Include="30_days_of_code\include\_30DaysOfCode.h" />
     <ClInclude Include="tutorials\basic_data_types\BasicDataTypes.h" />
+    <ClInclude Include="tutorials\conditional_statements\ConditionalStatements.h" />
     <ClInclude Include="tutorials\Tutorials.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

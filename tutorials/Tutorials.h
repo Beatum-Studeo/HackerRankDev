@@ -4,4 +4,5 @@ namespace TutorialsNS
 {
     void tutorials();
     int basic_data_types_print();
+    int conditional_statements();
 };
