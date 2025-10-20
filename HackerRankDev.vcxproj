@@ -2139,6 +2139,7 @@
     <ClCompile Include="tutorials\basic_data_types\BasicDataTypes.cpp" />
     <ClCompile Include="tutorials\conditional_statements\ConditionalStatements.cpp" />
     <ClCompile Include="tutorials\for_loops\ForLoops.cpp" />
+    <ClCompile Include="tutorials\functions_tutorials\FunctionsTutorials.cpp" />
     <ClCompile Include="tutorials\Tutorials.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -2176,6 +2177,7 @@
     <ClInclude Include="tutorials\basic_data_types\BasicDataTypes.h" />
     <ClInclude Include="tutorials\conditional_statements\ConditionalStatements.h" />
     <ClInclude Include="tutorials\for_loops\ForLoops.h" />
+    <ClInclude Include="tutorials\functions_tutorials\FunctionsTutorials.h" />
     <ClInclude Include="tutorials\Tutorials.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

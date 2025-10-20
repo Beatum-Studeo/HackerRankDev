@@ -6,4 +6,5 @@ namespace TutorialsNS
     int basic_data_types_print();
     int conditional_statements();
     int for_loops_tutorials();
+    int functionsTutorials();
 };
