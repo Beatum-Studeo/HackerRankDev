@@ -14,7 +14,7 @@ int FunctionsTutorialsNS::max_of_four(int a, int b, int c, int d)
 
 int FunctionsTutorialsNS::functionsTutorials() {
     int a, b, c, d;
-    scanf_s("%d %d %d %d", &a, &b, &c, &d);
+    scanf_s("%d %d %d %d", &a, &b, &c, &d); 
     int ans = max_of_four(a, b, c, d);
     printf("%d", ans);
     
