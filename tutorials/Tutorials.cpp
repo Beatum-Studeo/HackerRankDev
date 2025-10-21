@@ -6,6 +6,17 @@
 #include "conditional_statements/ConditionalStatements.h"
 #include "for_loops/ForLoops.h"
 #include "functions_tutorials/FunctionsTutorials.h"
+#include "pointers_tutorial/PointersTutorial.h"
+
+void TutorialsNS::tutorials()
+{
+    std::cout << "Tutorials!\n";
+    //basic_data_types_print();
+    //conditional_statements();
+    //for_loops_tutorials();
+    //functionsTutorials();
+    pointers_tutorial();
+}
 
 int TutorialsNS::basic_data_types_print() {
     return BasicDataTypesNS::basic_data_types_print();
@@ -23,11 +34,6 @@ int TutorialsNS::functionsTutorials() {
     return FunctionsTutorialsNS::functionsTutorials();
 }
 
-void TutorialsNS::tutorials()
-{
-    std::cout << "Tutorials!\n";
-    //basic_data_types_print();
-    //conditional_statements();
-    //for_loops_tutorials();
-    functionsTutorials();
+int TutorialsNS::pointers_tutorial() {
+    return PointersTutorialNS::pointers_tutorial();
 }

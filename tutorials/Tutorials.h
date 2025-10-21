@@ -7,4 +7,5 @@ namespace TutorialsNS
     int conditional_statements();
     int for_loops_tutorials();
     int functionsTutorials();
+    int pointers_tutorial();
 };
