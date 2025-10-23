@@ -8,4 +8,5 @@ namespace TutorialsNS
     int for_loops_tutorials();
     int functionsTutorials();
     int pointers_tutorial();
+    int arrays_tutorial();
 };
