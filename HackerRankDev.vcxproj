@@ -2143,6 +2143,7 @@
     <ClCompile Include="tutorials\functions_tutorials\FunctionsTutorials.cpp" />
     <ClCompile Include="tutorials\pointers_tutorial\PointersTutorial.cpp" />
     <ClCompile Include="tutorials\Tutorials.cpp" />
+    <ClCompile Include="tutorials\variable_sized_arrays_tutorial\VariableSizedArraysTutorial.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="30_days_of_code\include\Day0HelloWorld.h" />
@@ -2183,6 +2184,7 @@
     <ClInclude Include="tutorials\functions_tutorials\FunctionsTutorials.h" />
     <ClInclude Include="tutorials\pointers_tutorial\PointersTutorial.h" />
     <ClInclude Include="tutorials\Tutorials.h" />
+    <ClInclude Include="tutorials\variable_sized_arrays_tutorial\VariableSizedArraysTutorial.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

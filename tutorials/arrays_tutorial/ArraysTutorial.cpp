@@ -11,7 +11,7 @@ int ArraysTutorialNS::arrays_tutorial() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int count;
     std::cin >> count;
-    int arr[count];
+    int* arr = new int[count];
     for (int i = 0; i < count; i++)
     {
         std::cin >> arr[i];
