@@ -2142,6 +2142,7 @@
     <ClCompile Include="tutorials\for_loops\ForLoops.cpp" />
     <ClCompile Include="tutorials\functions_tutorials\FunctionsTutorials.cpp" />
     <ClCompile Include="tutorials\pointers_tutorial\PointersTutorial.cpp" />
+    <ClCompile Include="tutorials\strings_tutorial\StringsTutorial.cpp" />
     <ClCompile Include="tutorials\Tutorials.cpp" />
     <ClCompile Include="tutorials\variable_sized_arrays_tutorial\VariableSizedArraysTutorial.cpp" />
   </ItemGroup>
@@ -2183,6 +2184,7 @@
     <ClInclude Include="tutorials\for_loops\ForLoops.h" />
     <ClInclude Include="tutorials\functions_tutorials\FunctionsTutorials.h" />
     <ClInclude Include="tutorials\pointers_tutorial\PointersTutorial.h" />
+    <ClInclude Include="tutorials\strings_tutorial\StringsTutorial.h" />
     <ClInclude Include="tutorials\Tutorials.h" />
     <ClInclude Include="tutorials\variable_sized_arrays_tutorial\VariableSizedArraysTutorial.h" />
   </ItemGroup>

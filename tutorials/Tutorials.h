@@ -10,4 +10,5 @@ namespace TutorialsNS
     int pointers_tutorial();
     int arrays_tutorial();
     int variable_sized_arrays_tutorial();
+    int strings_tutorial();
 };

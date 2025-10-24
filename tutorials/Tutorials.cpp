@@ -8,6 +8,7 @@
 #include "for_loops/ForLoops.h"
 #include "functions_tutorials/FunctionsTutorials.h"
 #include "pointers_tutorial/PointersTutorial.h"
+#include "strings_tutorial/StringsTutorial.h"
 #include "variable_sized_arrays_tutorial/VariableSizedArraysTutorial.h"
 
 void TutorialsNS::tutorials()
@@ -19,7 +20,8 @@ void TutorialsNS::tutorials()
     //functionsTutorials();
     //pointers_tutorial();
     //arrays_tutorial();
-    variable_sized_arrays_tutorial();
+    //variable_sized_arrays_tutorial();
+    strings_tutorial();
 }
 
 int TutorialsNS::basic_data_types_print() {
@@ -48,4 +50,8 @@ int TutorialsNS::arrays_tutorial() {
 
 int TutorialsNS::variable_sized_arrays_tutorial() {
     return VariableSizedArraysTutorialNS::variable_sized_arrays_tutorial();
+}
+
+int TutorialsNS::strings_tutorial() {
+    return StringsTutorialNS::strings_tutorial();
 }
