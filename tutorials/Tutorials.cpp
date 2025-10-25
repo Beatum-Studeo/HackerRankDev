@@ -9,6 +9,7 @@
 #include "functions_tutorials/FunctionsTutorials.h"
 #include "pointers_tutorial/PointersTutorial.h"
 #include "strings_tutorial/StringsTutorial.h"
+#include "string_streams_tutorial/StringStreamsTutorial.h"
 #include "variable_sized_arrays_tutorial/VariableSizedArraysTutorial.h"
 
 void TutorialsNS::tutorials()
@@ -21,7 +22,8 @@ void TutorialsNS::tutorials()
     //pointers_tutorial();
     //arrays_tutorial();
     //variable_sized_arrays_tutorial();
-    strings_tutorial();
+    //strings_tutorial();
+    string_streams_tutorials();
 }
 
 int TutorialsNS::basic_data_types_print() {
@@ -54,4 +56,8 @@ int TutorialsNS::variable_sized_arrays_tutorial() {
 
 int TutorialsNS::strings_tutorial() {
     return StringsTutorialNS::strings_tutorial();
+}
+
+int TutorialsNS::string_streams_tutorials() {
+    return StringStreamsTutorialNS::string_streams_tutorials();
 }

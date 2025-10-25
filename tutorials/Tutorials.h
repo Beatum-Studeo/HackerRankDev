@@ -11,4 +11,5 @@ namespace TutorialsNS
     int arrays_tutorial();
     int variable_sized_arrays_tutorial();
     int strings_tutorial();
+    int string_streams_tutorials();
 };

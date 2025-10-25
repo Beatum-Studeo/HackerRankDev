@@ -1,5 +1,6 @@
 #include "ConditionalStatements.h"
 
+#include <algorithm>
 #include <functional>
 #include <iostream>
 #include <map>
@@ -42,24 +43,30 @@ int ConditionalStatementsNS::conditional_statements()
     return 0;
 }
 
-std::string ConditionalStatementsNS::ltrim(const std::string &str) {
-    std::string s(str);
+std::string ConditionalStatementsNS::ltrim(const std::string &s) {
+    std::string temp(s);
+    // Trim leading whitespace
+    auto first_non_space = std::find_if_not(temp.begin(), temp.end(), 
+                                            [](unsigned char c){ return std::isspace(c); });
+    temp.erase(temp.begin(), first_non_space);
 
-    s.erase(
-        s.begin(),
-        std::find_if(s.begin(), s.end(), std::not1(std::ptr_fun<int, int>(isspace)))
-    );
-
-    return s;
+    // Trim trailing whitespace
+    auto last_non_space = std::find_if_not(temp.rbegin(), temp.rend(), 
+                                           [](unsigned char c){ return std::isspace(c); });
+    temp.erase(last_non_space.base(), temp.end());
+    return temp;
 }
 
-std::string ConditionalStatementsNS::rtrim(const std::string &str) {
-    std::string s(str);
+std::string ConditionalStatementsNS::rtrim(const std::string &s) {
+    std::string temp(s);
+    // Trim leading whitespace
+    auto first_non_space = std::find_if_not(temp.begin(), temp.end(), 
+                                            [](unsigned char c){ return std::isspace(c); });
+    temp.erase(temp.begin(), first_non_space);
 
-    s.erase(
-        find_if(s.rbegin(), s.rend(), std::not1(std::ptr_fun<int, int>(isspace))).base(),
-        s.end()
-    );
-
-    return s;
+    // Trim trailing whitespace
+    auto last_non_space = std::find_if_not(temp.rbegin(), temp.rend(), 
+                                           [](unsigned char c){ return std::isspace(c); });
+    temp.erase(last_non_space.base(), temp.end());
+    return temp;
 }
