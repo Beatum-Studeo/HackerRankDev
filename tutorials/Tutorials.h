@@ -13,4 +13,5 @@ namespace TutorialsNS
     int strings_tutorial();
     int string_streams_tutorials();
     int structs_tutorial();
+    int classes_tutorial();
 };

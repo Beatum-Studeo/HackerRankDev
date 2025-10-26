@@ -4,6 +4,7 @@
 
 #include "arrays_tutorial/ArraysTutorial.h"
 #include "basic_data_types/BasicDataTypes.h"
+#include "classes_tutorial/ClassesTutorial.h"
 #include "conditional_statements/ConditionalStatements.h"
 #include "for_loops/ForLoops.h"
 #include "functions_tutorials/FunctionsTutorials.h"
@@ -25,7 +26,8 @@ void TutorialsNS::tutorials()
     //variable_sized_arrays_tutorial();
     //strings_tutorial();
     //string_streams_tutorials();
-    structs_tutorial();
+    //structs_tutorial();
+    classes_tutorial();
 }
 
 int TutorialsNS::basic_data_types_print() {
@@ -66,4 +68,8 @@ int TutorialsNS::string_streams_tutorials() {
 
 int TutorialsNS::structs_tutorial() {
     return StructsTutorialNS::structs_tutorial();
+}
+
+int TutorialsNS::classes_tutorial() {
+    return ClassesTutorialNS::classes_tutorial();
 }
