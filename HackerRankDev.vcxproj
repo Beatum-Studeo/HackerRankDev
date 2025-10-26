@@ -2145,6 +2145,7 @@
     <ClCompile Include="tutorials\pointers_tutorial\PointersTutorial.cpp" />
     <ClCompile Include="tutorials\strings_tutorial\StringsTutorial.cpp" />
     <ClCompile Include="tutorials\string_streams_tutorial\StringStreamsTutorial.cpp" />
+    <ClCompile Include="tutorials\structs_tutorial\StructsTutorial.cpp" />
     <ClCompile Include="tutorials\Tutorials.cpp" />
     <ClCompile Include="tutorials\variable_sized_arrays_tutorial\VariableSizedArraysTutorial.cpp" />
   </ItemGroup>
@@ -2188,6 +2189,7 @@
     <ClInclude Include="tutorials\pointers_tutorial\PointersTutorial.h" />
     <ClInclude Include="tutorials\strings_tutorial\StringsTutorial.h" />
     <ClInclude Include="tutorials\string_streams_tutorial\StringStreamsTutorial.h" />
+    <ClInclude Include="tutorials\structs_tutorial\StructsTutorial.h" />
     <ClInclude Include="tutorials\Tutorials.h" />
     <ClInclude Include="tutorials\variable_sized_arrays_tutorial\VariableSizedArraysTutorial.h" />
   </ItemGroup>
