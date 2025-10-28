@@ -4,7 +4,9 @@
 
 #include "arrays_tutorial/ArraysTutorial.h"
 #include "basic_data_types/BasicDataTypes.h"
+#include "box_it/BoxIt.h"
 #include "classes_tutorial/ClassesTutorial.h"
+#include "class_object_tutorial/ClassesObjectsTutorial.h"
 #include "conditional_statements/ConditionalStatements.h"
 #include "for_loops/ForLoops.h"
 #include "functions_tutorials/FunctionsTutorials.h"
@@ -27,7 +29,9 @@ void TutorialsNS::tutorials()
     //strings_tutorial();
     //string_streams_tutorials();
     //structs_tutorial();
-    classes_tutorial();
+    //classes_tutorial();
+    //class_object_tutorial();
+    box_it_tutorial();
 }
 
 int TutorialsNS::basic_data_types_print() {
@@ -72,4 +76,12 @@ int TutorialsNS::structs_tutorial() {
 
 int TutorialsNS::classes_tutorial() {
     return ClassesTutorialNS::classes_tutorial();
+}
+
+int TutorialsNS::class_object_tutorial() {
+    return ClassesObjectsTutorialNS::class_object_tutorial();
+}
+
+int TutorialsNS::box_it_tutorial() {
+    return BoxItNS::box_it_tutorial();
 }
