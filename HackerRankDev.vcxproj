@@ -2151,6 +2151,7 @@
     <ClCompile Include="tutorials\structs_tutorial\StructsTutorial.cpp" />
     <ClCompile Include="tutorials\Tutorials.cpp" />
     <ClCompile Include="tutorials\variable_sized_arrays_tutorial\VariableSizedArraysTutorial.cpp" />
+    <ClCompile Include="tutorials\vector_sort_tutorial\VectorSortTutorial.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="30_days_of_code\include\Day0HelloWorld.h" />
@@ -2198,6 +2199,7 @@
     <ClInclude Include="tutorials\structs_tutorial\StructsTutorial.h" />
     <ClInclude Include="tutorials\Tutorials.h" />
     <ClInclude Include="tutorials\variable_sized_arrays_tutorial\VariableSizedArraysTutorial.h" />
+    <ClInclude Include="tutorials\vector_sort_tutorial\VectorSortTutorial.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

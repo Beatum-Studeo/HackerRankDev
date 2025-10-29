@@ -16,4 +16,5 @@ namespace TutorialsNS
     int classes_tutorial();
     int class_object_tutorial();
     int box_it_tutorial();
+    int vector_sort_tutorial();
 };
