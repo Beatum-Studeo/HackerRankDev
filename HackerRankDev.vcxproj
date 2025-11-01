@@ -2145,12 +2145,15 @@
     <ClCompile Include="tutorials\conditional_statements\ConditionalStatements.cpp" />
     <ClCompile Include="tutorials\for_loops\ForLoops.cpp" />
     <ClCompile Include="tutorials\functions_tutorials\FunctionsTutorials.cpp" />
+    <ClCompile Include="tutorials\lower_bound_stl\LowerBoundStl.cpp" />
     <ClCompile Include="tutorials\pointers_tutorial\PointersTutorial.cpp" />
+    <ClCompile Include="tutorials\sets_stl_tutorial\SetsStlTutorial.cpp" />
     <ClCompile Include="tutorials\strings_tutorial\StringsTutorial.cpp" />
     <ClCompile Include="tutorials\string_streams_tutorial\StringStreamsTutorial.cpp" />
     <ClCompile Include="tutorials\structs_tutorial\StructsTutorial.cpp" />
     <ClCompile Include="tutorials\Tutorials.cpp" />
     <ClCompile Include="tutorials\variable_sized_arrays_tutorial\VariableSizedArraysTutorial.cpp" />
+    <ClCompile Include="tutorials\vector_erase\VectorEraseTutorial.cpp" />
     <ClCompile Include="tutorials\vector_sort_tutorial\VectorSortTutorial.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -2193,12 +2196,15 @@
     <ClInclude Include="tutorials\conditional_statements\ConditionalStatements.h" />
     <ClInclude Include="tutorials\for_loops\ForLoops.h" />
     <ClInclude Include="tutorials\functions_tutorials\FunctionsTutorials.h" />
+    <ClInclude Include="tutorials\lower_bound_stl\LowerBoundStl.h" />
     <ClInclude Include="tutorials\pointers_tutorial\PointersTutorial.h" />
+    <ClInclude Include="tutorials\sets_stl_tutorial\SetsStlTutorial.h" />
     <ClInclude Include="tutorials\strings_tutorial\StringsTutorial.h" />
     <ClInclude Include="tutorials\string_streams_tutorial\StringStreamsTutorial.h" />
     <ClInclude Include="tutorials\structs_tutorial\StructsTutorial.h" />
     <ClInclude Include="tutorials\Tutorials.h" />
     <ClInclude Include="tutorials\variable_sized_arrays_tutorial\VariableSizedArraysTutorial.h" />
+    <ClInclude Include="tutorials\vector_erase\VectorEraseTutorial.h" />
     <ClInclude Include="tutorials\vector_sort_tutorial\VectorSortTutorial.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

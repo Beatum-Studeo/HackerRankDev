@@ -17,4 +17,7 @@ namespace TutorialsNS
     int class_object_tutorial();
     int box_it_tutorial();
     int vector_sort_tutorial();
+    int vector_erase_tutorial();
+    int lower_bounds_stl_tutorial();
+    int sets_stl_tutorial();
 };

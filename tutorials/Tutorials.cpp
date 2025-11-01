@@ -10,11 +10,14 @@
 #include "conditional_statements/ConditionalStatements.h"
 #include "for_loops/ForLoops.h"
 #include "functions_tutorials/FunctionsTutorials.h"
+#include "lower_bound_stl/LowerBoundStl.h"
 #include "pointers_tutorial/PointersTutorial.h"
+#include "sets_stl_tutorial/SetsStlTutorial.h"
 #include "strings_tutorial/StringsTutorial.h"
 #include "string_streams_tutorial/StringStreamsTutorial.h"
 #include "structs_tutorial/StructsTutorial.h"
 #include "variable_sized_arrays_tutorial/VariableSizedArraysTutorial.h"
+#include "vector_erase/VectorEraseTutorial.h"
 #include "vector_sort_tutorial/VectorSortTutorial.h"
 
 void TutorialsNS::tutorials()
@@ -33,7 +36,10 @@ void TutorialsNS::tutorials()
     //classes_tutorial();
     //class_object_tutorial();
     //box_it_tutorial();
-    vector_sort_tutorial();
+    //vector_sort_tutorial();
+    //vector_erase_tutorial();
+    //lower_bounds_stl_tutorial();
+    sets_stl_tutorial();
 }
 
 int TutorialsNS::basic_data_types_print() {
@@ -90,4 +96,16 @@ int TutorialsNS::box_it_tutorial() {
 
 int TutorialsNS::vector_sort_tutorial() {
     return VectorSortTutorialNS::vector_sort_tutorial();
+}
+
+int TutorialsNS::vector_erase_tutorial() {
+    return VectorEraseTutorialNS::vector_erase_tutorial();
+}
+
+int TutorialsNS::lower_bounds_stl_tutorial() {
+    return LowerBoundStlNS::lower_bounds_stl_tutorial();
+}
+
+int TutorialsNS::sets_stl_tutorial() {
+    return SetsStlTutorialNS::sets_stl_tutorial();
 }
