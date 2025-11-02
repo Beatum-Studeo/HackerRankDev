@@ -20,4 +20,5 @@ namespace TutorialsNS
     int vector_erase_tutorial();
     int lower_bounds_stl_tutorial();
     int sets_stl_tutorial();
+    int maps_stl_tutorial();
 };

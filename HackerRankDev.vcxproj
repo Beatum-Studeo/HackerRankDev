@@ -2146,6 +2146,7 @@
     <ClCompile Include="tutorials\for_loops\ForLoops.cpp" />
     <ClCompile Include="tutorials\functions_tutorials\FunctionsTutorials.cpp" />
     <ClCompile Include="tutorials\lower_bound_stl\LowerBoundStl.cpp" />
+    <ClCompile Include="tutorials\maps_stl_tutorial\MapsStlTutorial.cpp" />
     <ClCompile Include="tutorials\pointers_tutorial\PointersTutorial.cpp" />
     <ClCompile Include="tutorials\sets_stl_tutorial\SetsStlTutorial.cpp" />
     <ClCompile Include="tutorials\strings_tutorial\StringsTutorial.cpp" />
@@ -2197,6 +2198,7 @@
     <ClInclude Include="tutorials\for_loops\ForLoops.h" />
     <ClInclude Include="tutorials\functions_tutorials\FunctionsTutorials.h" />
     <ClInclude Include="tutorials\lower_bound_stl\LowerBoundStl.h" />
+    <ClInclude Include="tutorials\maps_stl_tutorial\MapsStlTutorial.h" />
     <ClInclude Include="tutorials\pointers_tutorial\PointersTutorial.h" />
     <ClInclude Include="tutorials\sets_stl_tutorial\SetsStlTutorial.h" />
     <ClInclude Include="tutorials\strings_tutorial\StringsTutorial.h" />

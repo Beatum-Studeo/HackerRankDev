@@ -11,6 +11,7 @@
 #include "for_loops/ForLoops.h"
 #include "functions_tutorials/FunctionsTutorials.h"
 #include "lower_bound_stl/LowerBoundStl.h"
+#include "maps_stl_tutorial/MapsStlTutorial.h"
 #include "pointers_tutorial/PointersTutorial.h"
 #include "sets_stl_tutorial/SetsStlTutorial.h"
 #include "strings_tutorial/StringsTutorial.h"
@@ -39,7 +40,8 @@ void TutorialsNS::tutorials()
     //vector_sort_tutorial();
     //vector_erase_tutorial();
     //lower_bounds_stl_tutorial();
-    sets_stl_tutorial();
+    //sets_stl_tutorial();
+    maps_stl_tutorial();
 }
 
 int TutorialsNS::basic_data_types_print() {
@@ -108,4 +110,8 @@ int TutorialsNS::lower_bounds_stl_tutorial() {
 
 int TutorialsNS::sets_stl_tutorial() {
     return SetsStlTutorialNS::sets_stl_tutorial();
+}
+
+int TutorialsNS::maps_stl_tutorial() {
+    return MapsStlTutorialNS::maps_stl_tutorial();
 }
