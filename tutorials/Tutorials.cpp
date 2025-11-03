@@ -2,24 +2,25 @@
 
 #include <iostream>
 
-#include "arrays_tutorial/ArraysTutorial.h"
-#include "basic_data_types/BasicDataTypes.h"
-#include "box_it/BoxIt.h"
-#include "classes_tutorial/ClassesTutorial.h"
-#include "class_object_tutorial/ClassesObjectsTutorial.h"
-#include "conditional_statements/ConditionalStatements.h"
-#include "for_loops/ForLoops.h"
-#include "functions_tutorials/FunctionsTutorials.h"
-#include "lower_bound_stl/LowerBoundStl.h"
-#include "maps_stl_tutorial/MapsStlTutorial.h"
-#include "pointers_tutorial/PointersTutorial.h"
-#include "sets_stl_tutorial/SetsStlTutorial.h"
-#include "strings_tutorial/StringsTutorial.h"
-#include "string_streams_tutorial/StringStreamsTutorial.h"
-#include "structs_tutorial/StructsTutorial.h"
-#include "variable_sized_arrays_tutorial/VariableSizedArraysTutorial.h"
-#include "vector_erase/VectorEraseTutorial.h"
-#include "vector_sort_tutorial/VectorSortTutorial.h"
+#include "easy_rank/arrays_tutorial/ArraysTutorial.h"
+#include "easy_rank/basic_data_types/BasicDataTypes.h"
+#include "easy_rank/box_it/BoxIt.h"
+#include "easy_rank/classes_tutorial/ClassesTutorial.h"
+#include "easy_rank/class_object_tutorial/ClassesObjectsTutorial.h"
+#include "easy_rank/conditional_statements/ConditionalStatements.h"
+#include "easy_rank/for_loops/ForLoops.h"
+#include "easy_rank/functions_tutorials/FunctionsTutorials.h"
+#include "easy_rank/inheritance_intro_tut/InheritanceIntroTut.h"
+#include "easy_rank/lower_bound_stl/LowerBoundStl.h"
+#include "easy_rank/maps_stl_tutorial/MapsStlTutorial.h"
+#include "easy_rank/pointers_tutorial/PointersTutorial.h"
+#include "easy_rank/sets_stl_tutorial/SetsStlTutorial.h"
+#include "easy_rank/strings_tutorial/StringsTutorial.h"
+#include "easy_rank/string_streams_tutorial/StringStreamsTutorial.h"
+#include "easy_rank/structs_tutorial/StructsTutorial.h"
+#include "easy_rank/variable_sized_arrays_tutorial/VariableSizedArraysTutorial.h"
+#include "easy_rank/vector_erase/VectorEraseTutorial.h"
+#include "easy_rank/vector_sort_tutorial/VectorSortTutorial.h"
 
 void TutorialsNS::tutorials()
 {
@@ -41,7 +42,8 @@ void TutorialsNS::tutorials()
     //vector_erase_tutorial();
     //lower_bounds_stl_tutorial();
     //sets_stl_tutorial();
-    maps_stl_tutorial();
+    //maps_stl_tutorial();
+    inherit_intro_tut();
 }
 
 int TutorialsNS::basic_data_types_print() {
@@ -114,4 +116,8 @@ int TutorialsNS::sets_stl_tutorial() {
 
 int TutorialsNS::maps_stl_tutorial() {
     return MapsStlTutorialNS::maps_stl_tutorial();
+}
+
+int TutorialsNS::inherit_intro_tut() {
+    return InheritanceIntroTutNS::inherit_intro_tut();
 }

@@ -21,4 +21,5 @@ namespace TutorialsNS
     int lower_bounds_stl_tutorial();
     int sets_stl_tutorial();
     int maps_stl_tutorial();
+    int inherit_intro_tut();
 };
