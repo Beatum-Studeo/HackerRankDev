@@ -14,6 +14,7 @@
 #include "easy_rank/lower_bound_stl/LowerBoundStl.h"
 #include "easy_rank/maps_stl_tutorial/MapsStlTutorial.h"
 #include "easy_rank/pointers_tutorial/PointersTutorial.h"
+#include "easy_rank/rectangle_area/RectangleArea.h"
 #include "easy_rank/sets_stl_tutorial/SetsStlTutorial.h"
 #include "easy_rank/strings_tutorial/StringsTutorial.h"
 #include "easy_rank/string_streams_tutorial/StringStreamsTutorial.h"
@@ -43,7 +44,8 @@ void TutorialsNS::tutorials()
     //lower_bounds_stl_tutorial();
     //sets_stl_tutorial();
     //maps_stl_tutorial();
-    inherit_intro_tut();
+    //inherit_intro_tut();
+    rectangle_area();
 }
 
 int TutorialsNS::basic_data_types_print() {
@@ -120,4 +122,8 @@ int TutorialsNS::maps_stl_tutorial() {
 
 int TutorialsNS::inherit_intro_tut() {
     return InheritanceIntroTutNS::inherit_intro_tut();
+}
+
+int TutorialsNS::rectangle_area() {
+    return RectangleAreaNS::rectangle_area();
 }
