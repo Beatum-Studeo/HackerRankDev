@@ -23,4 +23,5 @@ namespace TutorialsNS
     int maps_stl_tutorial();
     int inherit_intro_tut();
     int rectangle_area();
+    int multi_inherit();
 };

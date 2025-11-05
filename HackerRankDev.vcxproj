@@ -2148,6 +2148,7 @@
     <ClCompile Include="tutorials\easy_rank\inheritance_intro_tut\InheritanceIntroTut.cpp" />
     <ClCompile Include="tutorials\easy_rank\lower_bound_stl\LowerBoundStl.cpp" />
     <ClCompile Include="tutorials\easy_rank\maps_stl_tutorial\MapsStlTutorial.cpp" />
+    <ClCompile Include="tutorials\easy_rank\multi_inherit\MultiInherit.cpp" />
     <ClCompile Include="tutorials\easy_rank\pointers_tutorial\PointersTutorial.cpp" />
     <ClCompile Include="tutorials\easy_rank\rectangle_area\RectangleArea.cpp" />
     <ClCompile Include="tutorials\easy_rank\sets_stl_tutorial\SetsStlTutorial.cpp" />
@@ -2202,6 +2203,7 @@
     <ClInclude Include="tutorials\easy_rank\inheritance_intro_tut\InheritanceIntroTut.h" />
     <ClInclude Include="tutorials\easy_rank\lower_bound_stl\LowerBoundStl.h" />
     <ClInclude Include="tutorials\easy_rank\maps_stl_tutorial\MapsStlTutorial.h" />
+    <ClInclude Include="tutorials\easy_rank\multi_inherit\MultiInherit.h" />
     <ClInclude Include="tutorials\easy_rank\pointers_tutorial\PointersTutorial.h" />
     <ClInclude Include="tutorials\easy_rank\rectangle_area\RectangleArea.h" />
     <ClInclude Include="tutorials\easy_rank\sets_stl_tutorial\SetsStlTutorial.h" />

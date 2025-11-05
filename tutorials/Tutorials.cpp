@@ -13,6 +13,7 @@
 #include "easy_rank/inheritance_intro_tut/InheritanceIntroTut.h"
 #include "easy_rank/lower_bound_stl/LowerBoundStl.h"
 #include "easy_rank/maps_stl_tutorial/MapsStlTutorial.h"
+#include "easy_rank/multi_inherit/MultiInherit.h"
 #include "easy_rank/pointers_tutorial/PointersTutorial.h"
 #include "easy_rank/rectangle_area/RectangleArea.h"
 #include "easy_rank/sets_stl_tutorial/SetsStlTutorial.h"
@@ -45,7 +46,8 @@ void TutorialsNS::tutorials()
     //sets_stl_tutorial();
     //maps_stl_tutorial();
     //inherit_intro_tut();
-    rectangle_area();
+    //rectangle_area();
+    multi_inherit();
 }
 
 int TutorialsNS::basic_data_types_print() {
@@ -126,4 +128,8 @@ int TutorialsNS::inherit_intro_tut() {
 
 int TutorialsNS::rectangle_area() {
     return RectangleAreaNS::rectangle_area();
+}
+
+int TutorialsNS::multi_inherit() {
+    return MultiInheritNS::multi_inherit();
 }
