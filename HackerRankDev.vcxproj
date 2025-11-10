@@ -2142,6 +2142,7 @@
     <ClCompile Include="tutorials\easy_rank\box_it\BoxIt.cpp" />
     <ClCompile Include="tutorials\easy_rank\classes_tutorial\ClassesTutorial.cpp" />
     <ClCompile Include="tutorials\easy_rank\class_object_tutorial\ClassesObjectsTutorial.cpp" />
+    <ClCompile Include="tutorials\easy_rank\class_template\ClassTemplate.cpp" />
     <ClCompile Include="tutorials\easy_rank\conditional_statements\ConditionalStatements.cpp" />
     <ClCompile Include="tutorials\easy_rank\for_loops\ForLoops.cpp" />
     <ClCompile Include="tutorials\easy_rank\functions_tutorials\FunctionsTutorials.cpp" />
@@ -2198,6 +2199,7 @@
     <ClInclude Include="tutorials\easy_rank\box_it\BoxIt.h" />
     <ClInclude Include="tutorials\easy_rank\classes_tutorial\ClassesTutorial.h" />
     <ClInclude Include="tutorials\easy_rank\class_object_tutorial\ClassesObjectsTutorial.h" />
+    <ClInclude Include="tutorials\easy_rank\class_template\ClassTemplate.h" />
     <ClInclude Include="tutorials\easy_rank\conditional_statements\ConditionalStatements.h" />
     <ClInclude Include="tutorials\easy_rank\for_loops\ForLoops.h" />
     <ClInclude Include="tutorials\easy_rank\functions_tutorials\FunctionsTutorials.h" />

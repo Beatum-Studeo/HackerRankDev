@@ -25,4 +25,5 @@ namespace TutorialsNS
     int rectangle_area();
     int multi_inherit();
     int overload_operators();
+    int class_template();
 };

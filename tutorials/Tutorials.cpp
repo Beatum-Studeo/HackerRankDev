@@ -7,6 +7,7 @@
 #include "easy_rank/box_it/BoxIt.h"
 #include "easy_rank/classes_tutorial/ClassesTutorial.h"
 #include "easy_rank/class_object_tutorial/ClassesObjectsTutorial.h"
+#include "easy_rank/class_template/ClassTemplate.h"
 #include "easy_rank/conditional_statements/ConditionalStatements.h"
 #include "easy_rank/for_loops/ForLoops.h"
 #include "easy_rank/functions_tutorials/FunctionsTutorials.h"
@@ -49,7 +50,8 @@ void TutorialsNS::tutorials()
     //inherit_intro_tut();
     //rectangle_area();
     //multi_inherit();
-    overload_operators();
+    //overload_operators();
+    class_template();
 }
 
 int TutorialsNS::basic_data_types_print() {
@@ -138,4 +140,8 @@ int TutorialsNS::multi_inherit() {
 
 int TutorialsNS::overload_operators() {
     return OverloadOperatorsNS::overload_operators();
+}
+
+int TutorialsNS::class_template() {
+    return ClassTemplateNS::class_template();
 }
